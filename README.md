@@ -61,5 +61,13 @@ def total_fertility_rate(births, women_population):
     return tfr
 ```
 
+## net migration rate
+
+```py
+def net_migration_rate(incoming_population, outgoing_population, total_population):
+    nmr = (incoming_population - outgoing_population) / total_population * 1000
+    return nmr
+```
+
 
 
