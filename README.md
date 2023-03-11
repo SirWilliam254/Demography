@@ -16,5 +16,13 @@ def birth_rate(births, population):
     rate = births / population
     return rate
 ```
+## Death rate per capita
+
+```py
+def death_rate(deaths, population):
+    rate = deaths / population
+    return rate
+```
+
 
 
