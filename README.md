@@ -9,4 +9,12 @@ def population_density(population, area):
     density = population / area
     return density
 ```
+## Birth rate per capita
+
+```py
+def birth_rate(births, population):
+    rate = births / population
+    return rate
+```
+
 
