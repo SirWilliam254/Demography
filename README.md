@@ -37,5 +37,12 @@ def life_expectancy(age, gender):
     return life_expectancy
 ```
 
+## Age-specific fertility rate
+
+```py
+def age_specific_fertility_rate(live_births, women_population):
+    asfr = live_births / women_population
+    return asfr
+```
 
 
