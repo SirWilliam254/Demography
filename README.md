@@ -53,4 +53,13 @@ def infant_mortality_rate(infant_deaths, live_births):
     return imr
 ```
 
+## Total fertility rate
+
+```py
+def total_fertility_rate(births, women_population):
+    tfr = births / women_population * 1000
+    return tfr
+```
+
+
 
