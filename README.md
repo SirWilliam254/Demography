@@ -24,5 +24,18 @@ def death_rate(deaths, population):
     return rate
 ```
 
+## Life expectancy
+
+```py
+def life_expectancy(age, gender):
+    if gender == 'male':
+        life_expectancy = 76.1 - age
+    elif gender == 'female':
+        life_expectancy = 80.8 - age
+    else:
+        life_expectancy = None
+    return life_expectancy
+```
+
 
 
