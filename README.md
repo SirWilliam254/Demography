@@ -45,4 +45,12 @@ def age_specific_fertility_rate(live_births, women_population):
     return asfr
 ```
 
+## infant mortality rate
+
+```py
+def infant_mortality_rate(infant_deaths, live_births):
+    imr = infant_deaths / live_births
+    return imr
+```
+
 
